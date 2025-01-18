@@ -1,21 +1,30 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-    'boven boven'
+    'logo header'
     'nav main'
     'footer footer';
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 100px 400px 100px;
+    grid-template-columns: auto 2fr;
+    grid-template-rows: 150px 500px 125px;
     height: 100vh
 }
 
 .header {
-    grid-area: boven;
+    grid-area: header;
+    margin: 0px 0px 0px 20px;
 }
 
 .nav {
     grid-area: nav;
-    margin-top:250px;
+    margin-top:0px;
+    font-size:medium;
+    text-align: left;
+
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0px;
 }
 
 .footer {
@@ -25,6 +34,9 @@
 .main {
     grid-area: main;
     margin: top 250px;px;
+    font-size:medium;
+    background-color: #7B68EE;
+    margin: 0px 0px 0px 20px;
 }
 
 
