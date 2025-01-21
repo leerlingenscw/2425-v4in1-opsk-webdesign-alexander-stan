@@ -1,19 +1,28 @@
-/************************* DEBUG SETTINGS *************************/
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'boven boven'
+    'nav main'
+    'footer footer';
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px 400px 100px;
+    height: 100vh
+}
 
-/* Settings to help find errors in your css
-   uncomment to enable */
+.header {
+    grid-area: boven;
+}
 
-/* Add dotted line around all boxes.
-   This makes size of boxes visible.
-   Warning 1: this settings may change your layout.
-   Warning 2: keep the * as selector for all tags when uncommenting. */
-/*  * {border: 1px dotted black;}   */
-  
-/* Add semi-transparant dark background to all boxes
-   The more boxes are on top of eachother the darker tghe background color
-   Warning: keep the * as selector for all tags when uncommenting. */
-/*  * {background-color: rgba(0,0,0,5%);}  */
+.nav {
+    grid-area: nav;
+    margin-top:250px;
+}
 
-/************************* YOUR SETTINGS *************************/
+.footer {
+    grid-area: footer;
+}
 
-/* add your css here, feel free to use comments and order them logically for better readability */
+.main {
+    grid-area: main;
+    margin: top 250px;px;
+}
