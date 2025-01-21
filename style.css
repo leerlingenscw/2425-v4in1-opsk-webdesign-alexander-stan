@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-    'boven boven'
+    'logo header'
     'nav main'
     'footer footer';
     grid-template-columns: 1fr 2fr;
