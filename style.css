@@ -15,7 +15,20 @@
 
 .nav {
     grid-area: nav;
-    margin-top:250px;
+    margin-top:0px;
+    font-size:medium;
+    text-align: left;
+    background-color: hsla(208, 56%, 37%, 0.576);
+    border-right: 8px solid #373745;
+    border-bottom: 5px solid #373745;
+
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 12px;
+    
 }
 
 .footer {
@@ -24,15 +37,12 @@
 
 .main {
     grid-area: main;
-    margin: top 250px;px;
-}
-
-
-
-{
-    margin: 0;
-    padding: 0;
-    boxsizing: borderbox;
+    margin: top 250px;
+    font-size:medium;
+    background-color: #7B68EE;
+    margin: 0px 20px 10px 20px;
+    box-shadow: 15px 15px 5px rgb(40, 13, 94);
+    
 }
 
 body{ 
