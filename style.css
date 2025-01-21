@@ -4,13 +4,13 @@
     'logo header'
     'nav main'
     'footer footer';
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 100px 400px 100px;
-    height: 100vh
+    grid-template-columns: 200px 1000px;
+    grid-template-rows: 100px 500px 100px;
+    height: 100vh;
 }
 
 .header {
-    grid-area: boven;
+    grid-area: header;
 }
 
 .nav {
@@ -37,11 +37,17 @@
 
 .main {
     grid-area: main;
-    margin: top 250px;
     font-size:medium;
     background-color: #7B68EE;
     margin: 0px 20px 10px 20px;
     box-shadow: 15px 15px 5px rgb(40, 13, 94);
-    
 }
+
+.logo {
+    grid-area: logo;
+}
+    
+
+
+body{ 
 
