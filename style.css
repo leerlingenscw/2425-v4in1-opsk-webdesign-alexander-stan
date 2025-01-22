@@ -1,16 +1,16 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-    'logo header'
-    'nav main'
-    'footer footer';
-    grid-template-columns: 200px auto;
+    'logo header header'
+    'nav nav main'
+    'footer footer footer';
+    grid-template-columns: 150px 75px auto;
     grid-template-rows: 100px 500px auto;
     height: 100vh;
 }
 
 .header {
-    grid-area: header;
+    grid-area: header; 
 }
 
 .nav {
