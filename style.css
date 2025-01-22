@@ -4,8 +4,8 @@
     'logo header'
     'nav main'
     'footer footer';
-    grid-template-columns: 200px 1000px;
-    grid-template-rows: 100px 500px 100px;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100px 500px auto;
     height: 100vh;
 }
 
@@ -18,7 +18,7 @@
     margin-top:0px;
     font-size:medium;
     text-align: left;
-    background-color: hsla(208, 56%, 37%, 0.576);
+    background-color: hsl(250, 71%, 75%);
     border-right: 8px solid #373745;
     border-bottom: 5px solid #373745;
 
@@ -28,26 +28,34 @@
     list-style-type: none;
     padding: 0px;
     padding-left: 12px;
+    color:black;
     
 }
 
 .footer {
     grid-area: footer;
+    background-color: #E6E6FA;
 }
 
 .main {
     grid-area: main;
     font-size:medium;
     background-color: #7B68EE;
-    margin: 0px 20px 10px 20px;
+    margin: 0px 30px 10px 20px;
     box-shadow: 15px 15px 5px rgb(40, 13, 94);
 }
 
-.logo {
-    grid-area: logo;
+body{
+    background-color:rgba(46, 44, 44, 0.692);
+    width:100%;
+    margin: 1px;
 }
-    
 
+.logo{
+    grid-area: logo;
+    border: 5px solid black;
+}
 
-body{ 
-
+.footer p{
+    padding-left: 10px;
+}
