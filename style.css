@@ -28,9 +28,7 @@
     font-size:medium;
     text-align: left;
     background-color: hsl(25, 80%, 52%);
-    border-right: 8px solid #373745;
-    border-bottom: 5px solid #373745;
-    border-top: 5px solid #373745;
+    
 }
 
 .nav ul {
