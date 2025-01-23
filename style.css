@@ -42,7 +42,7 @@
 
 .footer {
     grid-area: footer;
-    background-color: #00000098;
+    background-color: #00000076;
     color: white;
     margin-top: 10px;
 }
@@ -55,6 +55,15 @@
     box-shadow: 15px 15px 5px rgb(40, 13, 94);
     margin-right: 100px;
     
+}
+
+.main h2 {
+    padding-left: 20px;
+
+}
+
+.main p {
+    padding-left: 20px;
 }
 
 body{
