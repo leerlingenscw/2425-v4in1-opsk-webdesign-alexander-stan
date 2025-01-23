@@ -5,7 +5,7 @@
     'nav nav main aside'
     'footer footer footer footer';
     grid-template-columns: 150px 75px 800px auto;
-    grid-template-rows: 100px 1200px 150px;
+    grid-template-rows: 86px 1200px 150px;
     height: 100vh;
 }
 
@@ -16,13 +16,12 @@
 
 .nav {
     grid-area: nav;
-    margin-top:0px;
+    margin-top:10px;
     font-size:medium;
     text-align: left;
     background-color: hsl(250, 71%, 75%);
     border-right: 8px solid #373745;
     border-bottom: 5px solid #373745;
-
 }
 
 .nav ul {
@@ -30,21 +29,22 @@
     padding: 0px;
     padding-left: 12px;
     color:black;
-    
 }
 
 .footer {
     grid-area: footer;
-    background-color: #000000ab;
+    background-color: #00000098;
     color: white;
+    margin-top: 10px;
 }
 
 .main {
     grid-area: main;
     font-size:medium;
     background-color: #7B68EE;
-    margin: 0px 30px 10px 20px;
+    margin: 10px 30px 10px 20px;
     box-shadow: 15px 15px 5px rgb(40, 13, 94);
+    
 }
 
 body{
@@ -59,7 +59,6 @@ body{
 }
 
 .footer p{
-    padding-left: 10px;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -68,4 +67,5 @@ body{
 .sidebar{
     grid-area: aside;
     background-color: red;
+    margin-top:10px;
 }
