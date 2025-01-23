@@ -88,14 +88,9 @@ body{
 }
 
 .main table{
-    padding-left: 50px; 
-
+    padding-left: 35px; 
 }
 
-.td {
-    vertical-align: text-top;
+table td{
+  padding:15px;
 }
-
-
-
-
