@@ -10,7 +10,8 @@
 }
 
 .header {
-    grid-area: header; 
+    grid-area: header;
+    background-color: orange; 
 }
 
 .nav {
@@ -59,8 +60,12 @@ body{
 
 .footer p{
     padding-left: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
 }
 
 .sidebar{
     grid-area: aside;
+    background-color: red;
 }
