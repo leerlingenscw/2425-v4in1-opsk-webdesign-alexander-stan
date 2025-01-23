@@ -1,11 +1,11 @@
 .grid-container {
     display: grid;
     grid-template-areas:
-    'logo header header'
-    'nav nav main'
-    'footer footer footer';
-    grid-template-columns: 150px 75px auto;
-    grid-template-rows: 100px 500px auto;
+    'logo header header header'
+    'nav nav main aside'
+    'footer footer footer footer';
+    grid-template-columns: 150px 75px 800px auto;
+    grid-template-rows: 100px 1200px 150px;
     height: 100vh;
 }
 
@@ -34,7 +34,8 @@
 
 .footer {
     grid-area: footer;
-    background-color: #E6E6FA;
+    background-color: #000000ab;
+    color: white;
 }
 
 .main {
@@ -58,4 +59,8 @@ body{
 
 .footer p{
     padding-left: 10px;
+}
+
+.sidebar{
+    grid-area: aside;
 }
