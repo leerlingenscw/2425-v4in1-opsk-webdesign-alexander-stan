@@ -89,3 +89,13 @@ body{
     padding-left: 20px;
 }
 
+.main table{
+    padding-left: 50px; 
+
+}
+
+.td {
+    vertical-align: text-top;
+}
+
+
