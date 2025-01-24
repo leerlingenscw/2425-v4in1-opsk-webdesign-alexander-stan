@@ -2,9 +2,9 @@
     display: grid;
     grid-template-areas:
     'logo header header header'
-    'nav nav main main'
+    'nav nav main aside'
     'footer footer footer footer';
-    grid-template-columns: 180px 75px 800px auto;
+    grid-template-columns: 180px 75px 1250px auto;
     grid-template-rows: 140px 1200px 150px;
     height: 100vh;
 }
