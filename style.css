@@ -5,7 +5,7 @@
     'nav nav main main'
     'footer footer footer footer';
     grid-template-columns: 180px 75px 800px auto;
-    grid-template-rows: 120px 1200px 150px;
+    grid-template-rows: 140px 1200px 150px;
     height: 100vh;
 }
 
@@ -15,11 +15,11 @@
 }
 
 .header h1{
-    padding-left: 375px;
+    padding-left: 625px;
 }
 
 .header h3{
-    padding-left: 375px;
+    padding-left: 625px;
 }
 
 .nav {
@@ -34,7 +34,7 @@
 .nav ul {
     list-style-type: none;
     padding: 0px;
-    padding-left: 12px;
+    padding-left: 25px;
     color:black;
 }
 
