@@ -5,7 +5,7 @@
     'nav nav main'
     'footer footer footer';
     grid-template-columns: 180px 75px auto;
-    grid-template-rows: 140px 1200px 150px;
+    grid-template-rows: 140px 800px 150px;
     height: 100vh;
 }
 
@@ -51,7 +51,7 @@
     background-color: #e8a65f;
     margin: 10px 30px 10px 20px;
     box-shadow: 15px 15px 5px rgb(40, 13, 94);
-    margin-right: 100px;
+    margin-right: 550px;
     
 }
 
@@ -61,7 +61,8 @@
 }
 
 .main p {
-    padding-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 body{
