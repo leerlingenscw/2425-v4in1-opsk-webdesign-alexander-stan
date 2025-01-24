@@ -5,7 +5,7 @@
     'nav main'
     'footer footer';
     grid-template-columns: 180px auto;
-    grid-template-rows: 140px 800px 150px;
+    grid-template-rows: 140px 850px 150px;
     height: 100vh;
 }
 
@@ -67,7 +67,7 @@
     background-color: #e8a65f;
     margin: 10px 30px 10px 20px;
     box-shadow: 15px 15px 5px rgb(40, 13, 94);
-    margin-right: 30%;
+    margin-right: 10%;
     justify-content: center;
     align-items: center;
     
